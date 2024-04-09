@@ -3,7 +3,13 @@
     <style name="Base.Theme.NavViewMenu" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="drawerArrowStyle">@style/Theme.Drawer</item>
     </style>
 
     <style name="Theme.NavViewMenu" parent="Base.Theme.NavViewMenu" />
+
+    <style name="Theme.Drawer" parent="Widget.AppCompat.DrawerArrowToggle" >
+        <item name="spinBars">true</item>
+        <item name="color">@color/white</item>
+    </style>
 </resources>
